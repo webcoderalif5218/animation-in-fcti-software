@@ -1,0 +1,226 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:linear-gradient( to left , #00532E,#13cf7b);
+
+}
+.container{
+	margin-top: 250px;
+}
+.container .row{
+	display:flex;
+	justify-content:center;
+}
+
+.container .row .box{
+	width:350px;
+	background:white;
+	margin:20px;
+	padding:30px;
+	border-radius:20px;
+	transition:.7s;
+}
+.container .row .box:hover{
+	    background-image: url(https://www.konnectplugins.com/vistha/images/service-bg.svg);
+		    background-size:cover;
+			background-position:bottom;
+			
+			background-color:#00532E;
+}
+.container .row .box i{
+	width:80px;
+	height:80px;
+	background:#e91e63;
+	color:white;
+	font-size:40px;
+	line-height:80px;
+	border-radius:50%;
+	text-align:center;
+	
+}
+.container .row .box h1{
+	margin:20px 0;
+	margin-top: -150px;
+	color: rgb(161, 205, 255);
+	font-weight: lighter;
+}
+.container .row .box p{
+	color: black;
+	transition: all .5s ease-in-out;
+}
+.container .row .box:hover p{
+	color:white;
+}
+
+#ball2{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 4px 4px 0 0;
+	border-radius: 50%;
+	top: -100px ;
+	left: 19px;
+	width: 40px;
+	height: 0px;
+	animation: orbit 20.5s linear infinite;
+	animation-delay: -50s;
+}
+#ball2::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: orange;
+
+}
+@keyframes orbit {
+	to {
+		transform: rotate(360deg);
+	}
+}
+#ball1{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 0.1em 0.1em 0 0;
+	border-radius: 50%;
+	top:  -65PX;
+	left: 15px;
+	width: 50px;
+	height: 60px;
+	animation: orbit 20.5s linear infinite;
+
+}
+#ball1::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+
+}
+#ball3{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 0.1em 0.1em 0 0;
+	border-radius: 50%;
+	top:  -138PX;
+	left: 15px;
+	width: 50px;
+	height: 60px;
+	animation: orbit 20.5s linear infinite;
+	animation-delay: -2s;
+}
+#ball3::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: orange;
+
+}
+
+
+#ball4{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 0.1em 0.1em 0 0;
+	border-radius: 50%;
+	top:  -185PX;
+	left: 15px;
+	width: 50px;
+	height: 60px;
+	animation: orbit 20.5s linear infinite;
+	animation-delay: -9s;
+}
+#ball4::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+
+}
+#ball5{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 6px 6px 0 0;
+	border-radius: 50%;
+	top:  -220PX;
+	left: 15px;
+	width: 40px;
+	height: 0px;
+	animation: orbit 20.5s linear infinite;
+	animation-delay: 0.5s;
+}
+#ball5::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+
+}
+#ball6{
+	position: relative;
+	border-style: solid;
+	border-color: transparent
+	transparent
+	transparent
+	transparent;
+	border-width: 4px 4px 0 0;
+	border-radius: 50%;
+	top:  -220PX;
+	left: 15px;
+	width: 40px;
+	height: 0px;
+	animation: orbit 20.5s linear infinite;
+	animation-delay: 0.5s;
+}
+#ball6::before{
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	top: 2.8em;
+	right: 2.8em;
+	width: 5px;
+	height: 5px;
+	background: orange;
+
+}
